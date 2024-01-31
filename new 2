@@ -1,0 +1,30 @@
+Public class PrintNumbers{
+
+public static void main (S
+
+
+public void printNumbers( int n){
+if(n<=100){
+sysout(n);
+printNumbers(n+1);
+
+
+}
+Project
+Test data management
+config 
+reporting and logging the issues
+
+
+if you want to start automation proj for web mob and webservices, how will you define framework form scratch(libraries, data , config etc..)
+What are best pracices for code reviews in test automation scripts
+TOSCA VS open source libraries (Selenium rest assured RTM)
+More assertions what needed for rest assured 
+Other ways to handle payload.(assertion hints, libraries to implement)
+How will you take test automation project ownership( providing req)
+how will you lead projects with requirements.
+
+
+
+
+

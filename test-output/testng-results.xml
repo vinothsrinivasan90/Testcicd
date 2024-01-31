@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="157923" started-at="2024-01-31T21:06:59 IST" finished-at="2024-01-31T21:09:37 IST">
+    <groups>
+    </groups>
+    <test name="Registration" duration-ms="157923" started-at="2024-01-31T21:06:59 IST" finished-at="2024-01-31T21:09:37 IST">
+      <class name="xcite.shopping.AddProducts">
+        <test-method status="PASS" signature="browserlogin(java.lang.String)[pri:0, instance:xcite.shopping.AddProducts@2bea5ab4]" name="browserlogin" is-config="true" duration-ms="25746" started-at="2024-01-31T21:08:22 IST" finished-at="2024-01-31T21:08:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlogin -->
+        <test-method status="PASS" signature="addProducts()[pri:0, instance:xcite.shopping.AddProducts@2bea5ab4]" name="addProducts" duration-ms="48052" started-at="2024-01-31T21:08:48 IST" finished-at="2024-01-31T21:09:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProducts -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:xcite.shopping.AddProducts@2bea5ab4]" name="postCondition" is-config="true" duration-ms="719" started-at="2024-01-31T21:09:36 IST" finished-at="2024-01-31T21:09:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProducts status=SUCCESS method=AddProducts.addProducts()[pri:0, instance:xcite.shopping.AddProducts@2bea5ab4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- xcite.shopping.AddProducts -->
+      <class name="xcite.shopping.registerUser">
+        <test-method status="PASS" signature="extentReport()[pri:0, instance:xcite.shopping.registerUser@3439f68d]" name="extentReport" is-config="true" duration-ms="891" started-at="2024-01-31T21:06:58 IST" finished-at="2024-01-31T21:06:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReport -->
+        <test-method status="PASS" signature="browserlogin(java.lang.String)[pri:0, instance:xcite.shopping.registerUser@3439f68d]" name="browserlogin" is-config="true" duration-ms="62148" started-at="2024-01-31T21:06:59 IST" finished-at="2024-01-31T21:08:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlogin -->
+        <test-method status="PASS" signature="register()[pri:0, instance:xcite.shopping.registerUser@3439f68d]" name="register" duration-ms="11037" started-at="2024-01-31T21:08:01 IST" finished-at="2024-01-31T21:08:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:xcite.shopping.registerUser@3439f68d]" name="postCondition" is-config="true" duration-ms="10024" started-at="2024-01-31T21:08:12 IST" finished-at="2024-01-31T21:08:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=register status=SUCCESS method=registerUser.register()[pri:0, instance:xcite.shopping.registerUser@3439f68d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- xcite.shopping.registerUser -->
+    </test> <!-- Registration -->
+  </suite> <!-- Suite -->
+</testng-results>
